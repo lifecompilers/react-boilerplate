@@ -9,6 +9,7 @@
     "lint": "standard",
     "code-format": "standard --fix",
     "test": "jest",
+    "report": "allure generate allure-results --clean -o allure-results/report && allure open allure-results/report",
     "wdio": "wdio wdio-tests/configs/wdio.conf.js",
     "test-server": "java -jar  -Dwebdriver.chrome.driver=./wdio-tests/server/chromedriver -Dwebdriver.gecko.driver=./wdio-tests/server/geckodriver ./wdio-tests/server/selenium-server-standalone-3.5.3.jar",
     "predeploy": "npm run build",
@@ -46,6 +47,7 @@
   },
   "homepage": "https://lifecompilers.github.io/react-boilerplate",
   "devDependencies": {
+    "allure-commandline": "^2.5.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
@@ -58,6 +60,7 @@
     "jest": "^22.4.3",
     "standard": "^11.0.1",
     "style-loader": "^0.21.0",
+    "wdio-allure-reporter": "^0.6.2",
     "wdio-dot-reporter": "0.0.9",
     "wdio-mocha-framework": "^0.5.13",
     "webdriverio": "^4.12.0",

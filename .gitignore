@@ -9,6 +9,7 @@ build/
 dist/
 remote-repo/
 coverage/
+allure-results/
 flow-coverage/
 .module-cache
 fixtures/dom/public/react-dom.js

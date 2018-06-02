@@ -1,7 +1,7 @@
 var assert = require('assert')
 
-describe('webdriver.io page', function () {
-  it('should have the right title - the fancy generator way', function () {
+describe('React Boilerplate', function () {
+  it('should have the right title', function () {
     browser.url('https://lifecompilers.github.io/react-boilerplate/')
     var title = browser.getTitle()
     assert.equal(title, 'React Boilerplate')

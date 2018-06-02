@@ -39,13 +39,13 @@ exports.config = {
   // https://docs.saucelabs.com/reference/platforms-configurator
   //
   capabilities: [{
-    maxInstances: 5,
-    browserName: 'firefox'
-  },
-  {
-    maxInstances: 5,
-    browserName: 'chrome'
-  }
+      maxInstances: 5,
+      browserName: 'firefox'
+    },
+    {
+      maxInstances: 5,
+      browserName: 'chrome'
+    }
   ],
   //
   // ===================
@@ -124,8 +124,12 @@ exports.config = {
   // Test reporter for stdout.
   // The only one supported by default is 'dot'
   // see also: http://webdriver.io/guide/reporters/dot.html
-  reporters: ['dot'],
-
+  reporters: ['dot', 'allure'],
+  reporterOptions: {
+    allure: {
+      outputDir: 'allure-results'
+    }
+  },
   //
   // Options to be passed to Mocha.
   // See the full list at http://mochajs.org/
