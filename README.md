@@ -19,11 +19,11 @@ npm test - Unit test
 
 npm run lint - Linting
 
-npm run test-server - Start selenium server(Currently supports only Ubuntu - Chrome and Firefox)
-
-npm run wdio - run webdriverIO tests:)
+npm run e2e-test - Launch standalone selenium server and run webdriverIO tests:)
 
 npm run report - View WebdriverIO test report
+
+npm run postinstall - In case of Selenium driver not found error, manually run post install script
 
 ```
 
