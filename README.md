@@ -1,5 +1,7 @@
 # React-Boilerplate
 
+[![Build Status](https://travis-ci.org/lifecompilers/react-boilerplate.svg?branch=master)](https://travis-ci.org/lifecompilers/react-boilerplate)
+
 ## Getting started
 
 ```
@@ -22,4 +24,4 @@ npm run wdio - run webdriverIO tests:)
 
 ```
 
-Note: Sharing is Caring:)
+### Note: Sharing is Caring:)
