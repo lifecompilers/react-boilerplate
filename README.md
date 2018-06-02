@@ -1,6 +1,7 @@
 # React-Boilerplate
 
-[![Build Status](https://travis-ci.org/lifecompilers/react-boilerplate.svg?branch=master)](https://travis-ci.org/lifecompilers/react-boilerplate)
+[![Build Status](https://travis-ci.org/lifecompilers/react-boilerplate.svg?branch=master)](https://travis-ci.org/lifecompilers/react-boilerplate) [![codecov](https://codecov.io/gh/lifecompilers/react-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/lifecompilers/react-boilerplate)
+
 
 ## Getting started
 
