@@ -10,7 +10,7 @@
     "code-format": "standard --fix",
     "test": "jest",
     "wdio": "wdio wdio-tests/configs/wdio.conf.js",
-    "test-server": "java -jar -Dwebdriver.gecko.driver=./wdio-tests/server/geckodriver ./wdio-tests/server/selenium-server-standalone-3.5.3.jar",
+    "test-server": "java -jar  -Dwebdriver.chrome.driver=./wdio-tests/server/chromedriver -Dwebdriver.gecko.driver=./wdio-tests/server/geckodriver ./wdio-tests/server/selenium-server-standalone-3.5.3.jar",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
