@@ -1,0 +1,11 @@
+{
+    "notes": [{
+            "id": 1,
+            "note-text": "Sample note"
+        },
+        {
+            "id": 2,
+            "note-text": "Yet another sample note"
+        }
+    ]
+}
