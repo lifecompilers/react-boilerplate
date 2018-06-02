@@ -15,3 +15,5 @@ deploy:
   local_dir: dist
   on:
     branch: master
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
